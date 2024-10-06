@@ -1,0 +1,63 @@
+
+  [
+    {
+      "question": "Lorem, \\( \\frac{n(n+1)}{2} \\) sit amet consectetur adipisicing elit. Commodi dignissimos voluptates veniam, officiis ducimus fugiat eum placeat quis dolorum ab non nam quo officia dolores eius! Debitis ad molestiae temporibus.",
+      "option": [
+        "Marine",
+        "Petroleum",
+        "system",
+        "chemical"
+      ],
+      "answer": "Marine",
+      "number": 1,
+      "id": "8f3d"
+    },
+    {
+      "question": "Which scientist who proposed a theory in 1905 about photoelectric effect and General theory of relativity",
+      "option": [
+        "Robert Millikan",
+        "Werner Heisenberg",
+        "Albert Einstein",
+        "Richard Feymann"
+      ],
+      "answer": "Albert Einstein",
+      "number": 2,
+      "id": "61dc"
+    },
+    {
+      "question": "Find the value of \\( \\int_{0}^\\infty sin(x^2)dx \\)",
+      "option": [
+        "\\( \\frac{\\pi}{2} \\)",
+        "\\( \\frac{\\pi^2}{6} \\)",
+        "\\( \\frac{\\sqrt{\\pi}}{2\\sqrt{2}} \\)",
+        "\\( \\infty \\)"
+      ],
+      "answer": "\\( \\frac{\\sqrt{\\pi}}{2\\sqrt{2}} \\)",
+      "number": 3,
+      "id": "3"
+    },
+    {
+      "question": " \\( \\int x\\sqrt{x - 4} dx \\) ",
+      "option": [
+        "\\( \\frac{2(x - 4)^\\frac{5}{2}}{5} + \\frac{8(x - 4)^\\frac{3}{2}}{3} + c \\)",
+        "\\( 2(x - 4)^\\frac{3}{2} \\)",
+        "\\( \\frac{(x - 4)^\\frac{1}{4}}{4} \\)",
+        "\\( x^2 + 4x + 4 \\)"
+      ],
+      "answer": "\\( \\frac{2(x - 4)^\\frac{5}{2}}{5} + \\frac{8(x - 4)^\\frac{3}{2}}{3} + c \\)",
+      "number": 4,
+      "id": "4"
+    },
+    {
+      "question": "\\( \\int xlog_{2} x dx \\)",
+      "option": [
+        "\\( \\frac{2x}{ln2} + c \\)",
+        "\\( \\frac{x^2log_{2} x }{2} + \\frac{2x}{4ln2} + c \\)",
+        "\\( \\frac{x^2log_{2} x }{2} - \\frac{x^2}{4ln2} + c \\)",
+        "\\( \\frac{(xlog_{2} x)^3}{3} \\)"
+      ],
+      "answer": "\\( \\frac{x^2log_{2} x }{2} - \\frac{x^2}{4ln2} + c \\)",
+      "number": 5,
+      "id": "5"
+    }
+  ]

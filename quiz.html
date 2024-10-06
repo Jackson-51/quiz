@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="popup">
+            <h2></h2>
+        </div>
+
+        <header>
+            <h2>Jackson Quiz App</h2>
+        </header>
+        <main>
+            <div class="question_section">
+                <p id="question"></p>
+                <h2>Question <p id="q_num"></p></h2>
+            </div>
+            <div class="answer_section" id="answer_section">
+                
+            </div>
+            <footer>
+                <button id="prev_btn" type="button">Prev</button>
+                <div class="btngroup">
+                    <button id="next_btn" type="button">Next</button>
+                    <button id ="submit_btn" type="button">Submit</button>
+                </div>
+            </footer>
+
+        </main>
+
+        <div class="result">
+            <div class="loader">
+                <i class="fa-solid fa-arrows-rotate" id="rotate"></i>
+                <p>Loading...</p>
+                <span><i class="fa-solid fa-check"></i></span>
+            </div>
+            <div class="loading">
+                <h1>Score</h1>
+                <h3></h3>
+                <button onclick="recurr()">restart</button>
+                <a href="ans.html">Solution</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
