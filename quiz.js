@@ -90,6 +90,12 @@ function next() {
         document.querySelector('.btngroup').classList.add('toggle');
         document.querySelector('#prev_btn').disabled = true;
     }
+
+    else if(currentQuestionIndex === questions.length - 1){
+        document.querySelector(".message").textContent = 'last question';
+        document.getElementById("next_btn").classList.add('green');
+        document.querySelector(".question_section").classList.add('color');
+    }
     display_question();
 }
 
@@ -102,6 +108,11 @@ function prev() {
     let cod = obj.at(-1);
     if (Number.isInteger(cod.num)) {
         score = (score > 0)? score - 1 : 0;
+    }
+    if(currentQuestionIndex < questions.length - 1){
+        document.querySelector(".message").textContent = ' ';
+        document.getElementById("next_btn").classList.remove('green');
+        document.querySelector(".question_section").classList.remove('color');
     }
     correction.pop()
     display_question()

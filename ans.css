@@ -50,7 +50,7 @@ body{
     align-items:center;
     padding:10px;
     grid-gap:20px;
-    background-color: #ececec;
+    /* background-color: #ececec; */
     overflow-y: scroll;
 }
 

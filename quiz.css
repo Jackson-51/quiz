@@ -250,3 +250,23 @@ footer button:active{
 .popup.slide{
     top:30px;
 }
+
+.question_section.color h2{
+    color: green;
+    font-weight:bolder;
+    text-transform: capitalize;
+}
+
+#next_btn.green{
+    background-color:green;
+}
+
+.message{
+    position:absolute;
+    top:-60px;
+    left:50%;
+    transform: translateX(-50%);
+    color:#d38003;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
